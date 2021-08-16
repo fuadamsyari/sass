@@ -1,0 +1,17 @@
+// mixin
+@mixin tombol {
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+  border-radius: 2em;
+  border: 0.15em solid $primaryColor !important;
+  background-color: $primaryColor;
+  padding: 0.3em 1.8em !important;
+  text-decoration: none;
+  transition: 0.5s ease;
+  &:hover {
+    background-color: white;
+    color: $primaryColor;
+  }
+}
